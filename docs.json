@@ -1,21 +1,119 @@
 {
-  "name": "My Docs",
-  "description": "My documentation site",
+  "$schema": "https://docs.page/schema.json",
+  "name": "Custom Banner",
+  "description": "Custom Banner documentation site",
+  "tabs": [
+    {
+      "id": "root",
+      "title": "Getting Started",
+      "href": "/"
+    },
+    {
+      "id": "features",
+      "title": "Features",
+      "href": "/features"
+    },
+    {
+      "id": "integrations",
+      "title": "Integrations",
+      "href": "/integrations"
+    },
+    {
+      "id": "faq",
+      "title": "FAQ",
+      "href": "/faq"
+    }
+  ],
   "sidebar": [
-  {
-    "group": "Getting Started",
-    "pages": [
-      {
-        "title": "Getting to know docs.page",
-        "href": "/",
-        "icon": "rocket"
-      },
-      {
-        "title": "Next Steps",
-        "href": "/next-steps",
-        "icon": "arrow-right"
-      }
-    ]
-  }
-]
+    {
+      "group": "Getting Started",
+      "tab": "root",
+      "pages": [
+        {
+          "title": "Getting to know docs.page",
+          "href": "/",
+          "icon": "rocket"
+        },
+        {
+          "title": "Next Steps",
+          "href": "/next-steps",
+          "icon": "arrow-right"
+        }
+      ]
+    },
+    {
+      "group": "Learn More",
+      "tab": "root",
+      "pages": [
+        {
+          "title": "Features",
+          "href": "/features",
+          "icon": "arrow-right"
+        },
+        {
+          "title": "Integrations",
+          "href": "/integrations",
+          "icon": "arrow-right"
+        },
+        {
+          "title": "FAQ",
+          "href": "/faq",
+          "icon": "arrow-right"
+        }
+      ]
+    },
+    {
+      "group": "Feature 1",
+      "tab": "features",
+      "pages": [
+        {
+          "title": "Getting to know docs.page",
+          "href": "/",
+          "icon": "rocket"
+        },
+        {
+          "title": "Next Steps",
+          "href": "/next-steps",
+          "icon": "arrow-right"
+        }
+      ]
+    },
+    {
+      "group": "Feature 2",
+      "tab": "features",
+      "pages": [
+        {
+          "title": "Getting to know docs.page",
+          "href": "/",
+          "icon": "rocket"
+        },
+        {
+          "title": "Next Steps",
+          "href": "/next-steps",
+          "icon": "arrow-right"
+        }
+      ]
+    },
+    {
+      "group": "Learn More",
+      "tab": "features",
+      "pages": [
+        {
+          "title": "Getting Started",
+          "href": "/",
+          "icon": "arrow-right"
+        },
+        {
+          "title": "Integrations",
+          "href": "/integrations",
+          "icon": "arrow-right"
+        },
+        {
+          "title": "FAQ",
+          "href": "/faq",
+          "icon": "arrow-right"
+        }
+      ]
+    }
+  ]
 }
